@@ -1,0 +1,45 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.handle {
+  fill: #fff;
+  stroke: #aaa;
+  stroke-width: 2px;
+  transition: stroke 0.5s;
+}
+
+.handle:hover {
+	stroke: #0583ba;
+}
+
+.sliderG polygon {
+	fill: #777;
+}
+
+.rect {
+	stroke: black;
+	fill: black;
+	stroke-width: 1;
+}
+
+.leftVertical, .horizontal, .rightVertical, .topHorizontal, .vertical, .bottomHorizontal {
+	stroke: #777;
+	stroke-width: 1px;
+}
+
+text.width {
+	text-anchor: middle;
+	alignment-baseline: middle;
+	font-size: 8pt;
+}
+
+text.height {
+	font-size: 8pt;	
+}
+
+
+rect.textRect {
+	fill: white;
+}
+
